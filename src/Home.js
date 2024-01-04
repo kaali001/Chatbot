@@ -8,8 +8,7 @@ const Home = ()=> {
         
         height: "100vh",
         width: "100%",
-        backgroundImage:
-        'url("./earth-img.jpg")',
+        backgroundImage:'url("./earth-img.jpg")',
         backgroundSize: "cover",
          backgroundRepeat: "no-repeat",
         color: "white", 
@@ -19,25 +18,21 @@ const Home = ()=> {
 
     return(
         <>
-          
-                    {/* <img src="./earth-img.jpg" className="image" alt="earth" /> */}
                 
             <div className="image" style={imageStyle}>
-                 <div style={{
+                <div style={{
                     fontSize: '4rem',
                     fontWeight: '600',
-                   
-                  }}>
+                }}>
                     SciAstra
-                 </div>
-                <div style={ { 
-                    fontSize: '2rem',
-                    fontWeight: '600',}}>
-                For the love of science
-
                 </div>
-                  
-                
+                <div style={{
+                    fontSize: '2rem',
+                    fontWeight: '600',
+                }}>
+                    For the love of science
+
+                </div>                
 
             </div>
 
