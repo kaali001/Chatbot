@@ -12,6 +12,7 @@ const Home = ()=> {
         backgroundSize: "cover",
          backgroundRepeat: "no-repeat",
         color: "white", 
+        textAlign: 'center',
         
        
      };
